@@ -1,0 +1,35 @@
+@media (max-width:634px) {
+    .header .navbar{
+        display: none;
+    }
+    .header{
+        flex-direction: row;
+    }
+
+    .portfolio a{
+        font-size: 28px;
+    }
+    #menu{
+        display: initial;
+    }
+
+    .home .left{
+        padding-top: 5rem;
+    }
+    
+}
+
+@media (max-width:690px) {
+    .question form{
+        width: 100%;
+      }
+
+      label textarea{
+        width: 100%;
+      }
+
+      input{
+        width: 100%;
+    }
+    
+}

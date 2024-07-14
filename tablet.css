@@ -1,0 +1,143 @@
+@media (max-width:1024px) {
+    .header{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+
+    .home .left{
+        width: 60%;
+    }
+     #greet{
+            font-size: 12px;
+        }
+        .left #heading{
+            font-size: 45px;
+          }
+    
+          .left #subHeading{
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+        #subHeading span{
+          font-size: 25px;
+        }
+          
+        .left #para{
+            margin-bottom: 40px;
+          }
+    
+          .left .social-icon{
+              gap: 20px;
+          }
+          
+          .social-icon a {
+            padding: 15px;
+          }
+    
+          .left .btns{
+            gap: 40px;
+          }
+          
+          .right{
+            width: 40%;
+          }
+          
+         .right .rightIn{
+            width: 380px;
+            height: 380px;
+            padding: 8px;
+          }
+          
+       @media (max-width:912px) {
+        .home .left{
+            width: 65%;
+        }
+
+        .home .right{
+            width: 35%;
+        }
+
+        .right .rightIn{
+            width: 350px;
+            height: 350px;
+            padding: 8px;
+          }
+          #abHead{
+            font-size: 2rem;
+            font-weight: 600;
+          }
+          .skill-box {
+            width: 500px;
+            margin: 0 1rem;
+          }
+          .skill-box img{
+            width: 80px;
+            height: auto;
+            top: -20%;
+          }
+          .skill-box p{
+            font-weight: 400;
+          }
+       }   
+
+
+       @media (max-width:715px) {
+        .home{
+            flex-wrap: wrap;
+            gap:40px;
+        }
+
+        .home .left{
+            width: 80%;
+        }
+
+        .home .right{
+            width: 80%;
+            align-items: start;
+            justify-content: center;
+        }
+
+        .about .abSec .abRight{
+            margin-right: 0;
+            width: 100%;
+        }
+       }
+
+       @media (max-width:550px) {
+           .home{
+               width: 100%;
+           }
+        .home .left{
+            width: 100%;
+        }
+
+        .left .social-icon a {
+            margin-right: 20px;
+        }
+        .abSec{
+            margin-top: 1rem;
+            padding: .5rem;
+          }
+          .about{
+            padding:1rem 2rem;
+          }
+          
+       }
+
+
+       .about .abSec{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .abRight{
+        width: 100%;
+      }
+
+      .question form{
+        padding: 5px 15px;
+        gap: 20px;
+      }
+}

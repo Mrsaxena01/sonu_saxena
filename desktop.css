@@ -1,0 +1,73 @@
+@media (max-width:1060px) {
+    .home .left #greet{
+        font-size: 13px;
+    }
+    .left #heading{
+        font-size: 50px;
+        margin-top: -1px;
+        margin-bottom: 0px;
+      }
+
+      .left #subHeading{
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+    #subHeading span{
+      font-size: 30px;
+      position: relative;
+      top: 3px;
+      left: 3px;
+      font-weight: 900;
+      -webkit-text-stroke: .7px white;
+    }
+      
+    .left #para{
+        margin-bottom: 40px;
+      }
+
+      .left .social-icon{
+          gap: 20px;
+      }
+      
+      .social-icon a {
+        padding: 15px;
+      }
+
+      .left .btns{
+        gap: 40px;
+      }
+      
+      .right .rightIn{
+        width: 400px;
+        height: 400px;
+        overflow: hidden;
+        padding: 8px;
+        top: 50px;
+      }
+
+      .about .abSec{
+        padding: 2rem;
+      }
+      .abSec .abLeft{
+        width: 380px;
+      }
+      .abLeft img{
+        width: 400px;
+        height: auto;
+      }
+    }
+
+
+
+
+
+
+
+
+
+      @media (min-width:1024px) {
+        .home{
+          height: 100vh;
+        }
+       
+      }
