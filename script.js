@@ -12,8 +12,12 @@ cross.addEventListener("click", ()=>{
     slider.style.display = 'none';
 });
 
-document.querySelector("body").addEventListener("click", ()=>{
-    slider.style.display = 'none';
+let sliderA = document.querySelectorAll(".slider .navbar2 a");
+sliderA.forEach((el)=>{
+    el.addEventListener("click", ()=>{
+        slider.classList.toggle("view");
+        slider.style.display = 'none';
+    } );
 });
 
 let sections = document.querySelectorAll("section");
