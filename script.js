@@ -12,6 +12,9 @@ cross.addEventListener("click", ()=>{
     slider.style.display = 'none';
 });
 
+document.querySelector("body").addEventListener("click", ()=>{
+    slider.style.display = 'none';
+});
 
 let sections = document.querySelectorAll("section");
 let navLinks = document.querySelectorAll(".header nav a");
